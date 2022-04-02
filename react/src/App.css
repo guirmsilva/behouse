@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+form {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 26px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.fieldset {
+    display: block;
+}
+
+.singleInput {
+    position: relative;
+    padding: 5px 7px 5px 10px;
+    display: inline;
+}
+
+.singleInput label {
+    position: absolute;
+    font-size: 13px;
+    color: #a4a4a4;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 24px 17px;
+    padding: 0px 3px;
+    background: #fff;
+    z-index: 1;
+}
+
+.singleInput .input {
+    width: 603px;
+    border: 1px solid #a4a4a4;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.singleInput .input:focus {
+    border: 1px solid #ffc700;
+    transition-duration: .4s;
+}
+
+.doubleInput {
+    position: relative;
+    padding: 5px 6px 5px 10px;
+    display: inline;
+}
+
+.doubleInput label {
+    position: absolute;
+    font-size: 13px;
+    color: #a4a4a4;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 24px 17px;
+    padding: 0px 3px;
+    background: #fff;
+    z-index: 1;
+}
+
+.doubleInput .input {
+    width: 294px;
+    border: 1px solid #a4a4a4;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.doubleInput .input:focus {
+    border: 1px solid #ffc700;
+    transition-duration: .4s;
+}
+
+.doubleInput .rightLabel {
+    position: absolute;
+    font-size: 0.8em;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 24px 17px;
+    padding: 0px 3px;
+    background: #fff;
+    z-index: 1;
+}
+
+.textareaInput {
+    position: relative;
+    padding: 5px 7px 5px 10px;
+    display: inline;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #a4a4a4;
+    outline: none;
+    width: 603px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 7px 5px;
+    margin-bottom: 35px;
+    resize: none;
+}
+
+textarea:focus {
+    border: 1px solid #ffc700;
+    transition-duration: .4s;
+}
+
+.textareaInput label {
+    position: absolute;
+    font-size: 13px;
+    color: #a4a4a4;
+    bottom: 0px;
+    left: 0;
+    margin: 0px 0px 187px 17px;
+    padding: 0px 3px;
+    background: #fff;
+    z-index: 1;
+}
+
+button {
+    padding: 15px 120px;
+    margin-bottom: 75px;
+    border-radius: 5px;
+    background-color: #ffc700;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
